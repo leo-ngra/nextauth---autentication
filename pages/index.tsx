@@ -10,7 +10,7 @@ const Home: NextPage = () => {
 
   const {signIn} = useContext(AuthContext);
 
- async function handleSubmit(event: FormEvent) {
+  async function handleSubmit(event: FormEvent) {
     event.preventDefault()
 
     const data = {
